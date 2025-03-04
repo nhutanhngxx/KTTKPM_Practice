@@ -1,4 +1,4 @@
-package vn.com.iuh.fit;
+package vn.com.iuh.fit.noDesignPattern;
 
 class ChiefAccountant extends Employee {
     public ChiefAccountant(String name) {

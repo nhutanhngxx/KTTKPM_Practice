@@ -1,4 +1,4 @@
-package vn.com.iuh.fit;
+package vn.com.iuh.fit.noDesignPattern;
 
 class FactoryWorker extends Employee {
     public FactoryWorker(String name) {
@@ -8,7 +8,7 @@ class FactoryWorker extends Employee {
     @Override
     public void showDuties() {
         System.out.println(name + " (" + position + ") công việc:");
-        System.out.println("Sản xuất sản phẩm");
-        System.out.println("Kiểm tra chất lượng");
+        System.out.println("- Sản xuất sản phẩm");
+        System.out.println("- Kiểm tra chất lượng");
     }
 }

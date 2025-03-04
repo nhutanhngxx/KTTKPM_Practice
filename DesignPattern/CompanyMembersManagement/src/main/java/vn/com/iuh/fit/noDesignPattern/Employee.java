@@ -1,4 +1,4 @@
-package vn.com.iuh.fit;
+package vn.com.iuh.fit.noDesignPattern;
 
 public abstract class Employee {
     protected String name;

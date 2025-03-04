@@ -1,4 +1,4 @@
-package vn.com.iuh.fit;
+package vn.com.iuh.fit.noDesignPattern;
 
 public class OfficeStaff extends Employee {
     public OfficeStaff(String name) {
@@ -8,7 +8,7 @@ public class OfficeStaff extends Employee {
     @Override
     public void showDuties() {
         System.out.println(name + " (" + position + ") công việc:");
-        System.out.println("Pha cà phê");
-        System.out.println("Phê duyệt giấy tờ");
+        System.out.println("- Pha cà phê");
+        System.out.println("- Phê duyệt giấy tờ");
     }
 }

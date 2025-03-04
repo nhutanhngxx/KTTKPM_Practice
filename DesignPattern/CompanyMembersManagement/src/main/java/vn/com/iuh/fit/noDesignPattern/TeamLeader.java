@@ -1,4 +1,4 @@
-package vn.com.iuh.fit;
+package vn.com.iuh.fit.noDesignPattern;
 
 public class TeamLeader extends Employee {
     public TeamLeader(String name) {
@@ -8,7 +8,7 @@ public class TeamLeader extends Employee {
     @Override
     public void showDuties() {
         System.out.println(name + " (" + position + ") công việc:");
-        System.out.println("Đi tuần");
-        System.out.println("Gán việc cho nhân viên");
+        System.out.println("- Đi tuần");
+        System.out.println("- Sắp xếp công việc cho nhân viên");
     }
 }
