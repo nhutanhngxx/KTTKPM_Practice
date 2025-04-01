@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Docker
+*.log
+*.pid
+*.gz
+
+# Thư mục build và tạm thời
+/dist/
+/build/
+/tmp/
+/.env
+
+# MacOS specific
+.DS_Store
+
+# Thư mục IDE (vscode, webstorm...)
+.vscode/
+.idea/
+
+# Các file của hệ thống
+Thumbs.db
