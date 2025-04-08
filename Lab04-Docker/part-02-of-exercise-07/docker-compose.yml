@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo-container
+    ports:
+      - "27017:27017"  # Mở cổng MongoDB (cổng mặc định)
+    volumes:
+      - mongo-data:/data/db  # Dữ liệu MongoDB được lưu trong volume để duy trì khi container restart
+    restart: always
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express-container
+    ports:
+      - "8081:8081"  # Mở cổng cho Mongo Express trên cổng 8081
+    environment:
+      - ME_CONFIG_MONGODB_URL=mongodb://mongo:27017/  # Địa chỉ MongoDB container
+    depends_on:
+      - mongo  # Đảm bảo MongoDB khởi động trước
+    restart: always
+
+volumes:
+  mongo-data:
+    driver: local

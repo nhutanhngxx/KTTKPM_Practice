@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # Đặt mật khẩu root cho MySQL
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql  # Gắn volume vào thư mục chứa dữ liệu MySQL
+
+volumes:
+  mysql_data:  # Định nghĩa volume có tên "mysql_data"
