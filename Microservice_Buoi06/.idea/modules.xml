@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice_Buoi06.iml" filepath="$PROJECT_DIR$/.idea/Microservice_Buoi06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Customer-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Customer-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Inventory-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Inventory-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Order-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Order-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Payment-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Payment-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Product-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Product-Service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shipping-Service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Shipping-Service.main.iml" />
     </modules>
   </component>
 </project>
